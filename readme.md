@@ -4,7 +4,7 @@
 
 ### Script tag
 
-- Adicionar a tag `<script type="module" src="https://unpkg.com/medgrupo-privacy-policy@0.0.1/dist/medgrupo-privacy-policy/medgrupo-privacy-policy.esm.js"></script>` entre as tags `head` do html.
+- Adicionar a tag `<script type="module" src="https://unpkg.com/medgrupo-privacy-policy@VERSION/dist/medgrupo-privacy-policy/medgrupo-privacy-policy.esm.js"></script>` entre as tags `head` do html.
 
 ### Node Modules
 - Run `npm i medgrupo-privacy-policy --save`

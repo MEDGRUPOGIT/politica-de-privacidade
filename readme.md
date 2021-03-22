@@ -6,7 +6,7 @@ Medgrupo - Política de Privacidade => https://site.medgrupo.com.br/politica-de-
 
 ## Script tag
 
-- Adicionar a tag `<script type="module" src="https://unpkg.com/medgrupo-privacy-policy@VERSION/dist/medgrupo-privacy-policy/medgrupo-privacy-policy.esm.js"></script>` entre as tags `head` do html.
+- Adicionar a tag `<script type="module" src="https://unpkg.com/medgrupo-privacy-policy/dist/medgrupo-privacy-policy/medgrupo-privacy-policy.esm.js"></script>` entre as tags `head` do html.
 
 ## Node Modules
 - Run `npm i medgrupo-privacy-policy --save`

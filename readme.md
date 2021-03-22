@@ -1,7 +1,5 @@
 # Medgrupo - Política de Privacidade
 
-Podemos usar 3 estratégias para utilizar o componente.
-
 ### Script tag
 
 - Adicionar a tag `<script type="module" src="https://unpkg.com/medgrupo-privacy-policy@0.0.1/dist/medgrupo-privacy-policy/medgrupo-privacy-policy.esm.js"></script>` entre as tags `head` do html.

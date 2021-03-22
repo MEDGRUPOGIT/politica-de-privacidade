@@ -1,4 +1,6 @@
-# Medgrupo - Política de Privacidade
+# Medgrupo - Política de Privacidade 
+
+[![npm version](https://badge.fury.io/js/medgrupo-privacy-policy.svg)](https://badge.fury.io/js/medgrupo-privacy-policy)
 
 ### Script tag
 

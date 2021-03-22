@@ -1,8 +1,8 @@
 import { Component, Prop, State, h } from '@stencil/core';
 
 @Component({
-  tag: 'privacy-policy',
-  styleUrl: 'privacy-policy.scss',
+  tag: 'medgrupo-privacy-policy',
+  styleUrl: 'medgrupo-privacy-policy.scss',
   shadow: true,
 })
 export class PrivacyPolicy {
@@ -14,7 +14,7 @@ export class PrivacyPolicy {
   @Prop() linkText = 'Saiba mais';
   @Prop() buttonText = 'Entendi';
 
-  componentWillRender(){
+  componentWillRender() {
     const host = window.location.host;
     const lsHost = localStorage.getItem(host);
     this.showed = !(!!lsHost);

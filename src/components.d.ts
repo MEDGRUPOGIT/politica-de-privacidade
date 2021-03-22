@@ -6,7 +6,7 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface PrivacyPolicy {
+    interface MedgrupoPrivacyPolicy {
         "buttonText": string;
         "link": string;
         "linkText": string;
@@ -14,32 +14,32 @@ export namespace Components {
     }
 }
 declare global {
-    interface HTMLPrivacyPolicyElement extends Components.PrivacyPolicy, HTMLStencilElement {
+    interface HTMLMedgrupoPrivacyPolicyElement extends Components.MedgrupoPrivacyPolicy, HTMLStencilElement {
     }
-    var HTMLPrivacyPolicyElement: {
-        prototype: HTMLPrivacyPolicyElement;
-        new (): HTMLPrivacyPolicyElement;
+    var HTMLMedgrupoPrivacyPolicyElement: {
+        prototype: HTMLMedgrupoPrivacyPolicyElement;
+        new (): HTMLMedgrupoPrivacyPolicyElement;
     };
     interface HTMLElementTagNameMap {
-        "privacy-policy": HTMLPrivacyPolicyElement;
+        "medgrupo-privacy-policy": HTMLMedgrupoPrivacyPolicyElement;
     }
 }
 declare namespace LocalJSX {
-    interface PrivacyPolicy {
+    interface MedgrupoPrivacyPolicy {
         "buttonText"?: string;
         "link"?: string;
         "linkText"?: string;
         "message"?: string;
     }
     interface IntrinsicElements {
-        "privacy-policy": PrivacyPolicy;
+        "medgrupo-privacy-policy": MedgrupoPrivacyPolicy;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "privacy-policy": LocalJSX.PrivacyPolicy & JSXBase.HTMLAttributes<HTMLPrivacyPolicyElement>;
+            "medgrupo-privacy-policy": LocalJSX.MedgrupoPrivacyPolicy & JSXBase.HTMLAttributes<HTMLMedgrupoPrivacyPolicyElement>;
         }
     }
 }

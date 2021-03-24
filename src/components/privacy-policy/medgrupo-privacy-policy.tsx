@@ -5,7 +5,7 @@ import { Component, Prop, State, h } from '@stencil/core';
   styleUrl: 'medgrupo-privacy-policy.scss',
   shadow: true,
 })
-export class PrivacyPolicy {
+export class MedgrupoPrivacyPolicy {
 
   @State() showed = true;
 

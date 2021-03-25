@@ -1,6 +1,6 @@
 {
   "name": "medgrupo-privacy-policy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Medgrupo - Policy Privacy",
   "main": "dist/index.cjs.js",
   "module": "dist/custom-elements/index.js",

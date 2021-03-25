@@ -1,4 +1,5 @@
 import { Component, Prop, State, h } from '@stencil/core';
+import { getHost, getKey, getValue, setKey } from '../../utils/storage';
 
 @Component({
   tag: 'medgrupo-privacy-policy',
@@ -7,22 +8,19 @@ import { Component, Prop, State, h } from '@stencil/core';
 })
 export class PrivacyPolicy {
 
-  @State() showed = true;
-
   @Prop() message = 'Ao continuar a navegação, você concorda com a nossa política de privacidade.';
   @Prop() link = 'https://site.medgrupo.com.br/politica-de-privacidade/';
   @Prop() linkText = 'Saiba mais';
   @Prop() buttonText = 'Entendi';
 
+  @State() showed = false;
+
   componentWillRender() {
-    const host = window.location.host;
-    const lsHost = localStorage.getItem(host);
-    this.showed = !(!!lsHost);
+    this.showed = !(!!getKey(getHost()));
   }
 
   onButtonClick() {
-    const host = window.location.host;
-    localStorage.setItem(host, 'true');
+    setKey(getHost(), getValue());
     this.showed = false;
   }
 
